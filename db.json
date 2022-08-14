@@ -1,0 +1,68 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "date": "4/16/2022",
+      "type": "Biceps",
+      "name": "Barbell Curl",
+      "sets": "3 sets",
+      "reps": "8 reps"
+    },
+    {
+      "id": 2,
+      "date": "4/16/2022",
+      "type": "Back",
+      "name": "Wide-grip pull-up",
+      "sets": "3 sets",
+      "reps": "12"
+    },
+    {
+      "id": 3,
+      "date": "4/17/2022",
+      "type": "Triceps",
+      "name": "Daimond push-up",
+      "sets": "3 sets",
+      "reps": "faliure"
+    },
+    {
+      "id": 4,
+      "date": "4/17/2022",
+      "type": "Legs",
+      "name": "Lunges",
+      "sets": "3 sets",
+      "reps": "8 reps"
+    },
+    {
+      "id": 5,
+      "date": "4/18/2022",
+      "type": "Core",
+      "name": "Russian Twists",
+      "sets": "3 sets",
+      "reps": "8 reps"
+    },
+    {
+      "date": "7/18/22",
+      "type": "Legs",
+      "name": "Squats",
+      "sets": "4",
+      "reps": "6",
+      "id": 6
+    },
+    {
+      "date": "7/18/22",
+      "type": "shoulders",
+      "name": "Lat-Pulldown",
+      "sets": "3",
+      "reps": "10",
+      "id": 7
+    },
+    {
+      "date": "7/20/22",
+      "type": "Back",
+      "name": "Bent Over Rows",
+      "sets": "3",
+      "reps": "12",
+      "id": 8
+    }
+  ]
+}
