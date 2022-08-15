@@ -1,9 +1,4 @@
-/** How to think of events (3 question rule)
- At what time can I do this event? (DOMConetentLoaded)
- Whats going to trigger this event?
- (Click event)
- event(display home page)
- */
+
 
 /** Globals **/
 const primaryUrl = 'http://localhost:3000';
