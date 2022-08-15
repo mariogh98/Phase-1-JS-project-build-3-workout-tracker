@@ -6,7 +6,7 @@
 
 ### Features
 * Create Workout tab to create new workouts to add to your routine.
-* View Workouts tab to view a list of all created workouts to plan and reach your fitness goals
+* View Workouts tab to view a list of all created workouts to plan and reach your fitness goals.
 
 ### Installation
 1. Fork and clone this project to your terminal to install the application.
