@@ -16,6 +16,9 @@
 
 ### RoadMap
 * Add a checkbox button mark off exercises you've completed for easier navigation
+
 * Implement a nutrition tracker for buidling a meals to help you stay on track with your goals
+
 * Make application accessable from mobile devices, for convenience
+
 * Add images, gifs, or videos for brief walkthroughs on exercises 
