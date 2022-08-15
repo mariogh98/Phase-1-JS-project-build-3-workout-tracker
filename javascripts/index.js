@@ -7,13 +7,10 @@ let workouts = [];
 /**NODE Getters**/
 const mainDiv = () => 
 document.getElementById("main");
-
 const homePageLink = () => 
 document.getElementById('home-page-link');
-
 const workoutListLink = () => 
 document.getElementById('workout-list-link');
-
 const workoutFormLink = () =>
 document.getElementById('workout-form-link');
 
