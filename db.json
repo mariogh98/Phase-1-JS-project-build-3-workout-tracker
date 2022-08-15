@@ -63,6 +63,22 @@
       "sets": "3",
       "reps": "12",
       "id": 8
+    },
+    {
+      "date": "8/26/22",
+      "type": "core",
+      "name": "Crunches",
+      "sets": "3",
+      "reps": "12",
+      "id": 9
+    },
+    {
+      "date": "1/7/23",
+      "type": "arms",
+      "name": "Bicep curls",
+      "sets": "3",
+      "reps": "12",
+      "id": 10
     }
   ]
 }
