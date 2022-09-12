@@ -22,3 +22,7 @@
 * Make application accessable from mobile devices, for convenience
 
 * Add images, gifs, or videos for brief walkthroughs on exercises 
+
+### Usage
+```javaScript
+import Hustle

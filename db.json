@@ -31,6 +31,14 @@
       "sets": "3",
       "reps": "7",
       "id": 4
+    },
+    {
+      "date": "8/12/23",
+      "type": "Legs",
+      "name": "Goblet Squats",
+      "sets": "2 sets",
+      "reps": "14",
+      "id": 5
     }
   ]
 }
