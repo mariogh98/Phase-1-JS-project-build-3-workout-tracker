@@ -15,9 +15,9 @@
 4. open the index.html file in your browser. 
 
 ### RoadMap
-* Add a checkbox button mark off exercises you've completed for easier navigation
+* Add a checkbox button to mark off exercises you've completed for easier utility
 
-* Implement a nutrition tracker for buidling a meals to help you stay on track with your goals
+* Implement a nutrition tracker for buidling a meal plan to help you stay on track with your goals
 
 * Make application accessable from mobile devices, for convenience
 
@@ -26,3 +26,5 @@
 ### Usage
 ```javaScript
 import Hustle
+
+

@@ -5,40 +5,16 @@
       "date": "4/16/2022",
       "type": "Biceps",
       "name": "Barbell Curl",
-      "sets": "3 sets",
-      "reps": "8 reps"
+      "sets": "3",
+      "reps": "8"
     },
     {
       "id": 2,
       "date": "4/16/2022",
       "type": "Back",
       "name": "Wide-grip pull-up",
-      "sets": "3 sets",
-      "reps": "12"
-    },
-    {
-      "id": 3,
-      "date": "4/17/2022",
-      "type": "Triceps",
-      "name": "Daimond push-up",
-      "sets": "3 sets",
-      "reps": "faliure"
-    },
-    {
-      "date": "7/28/22",
-      "type": "core ",
-      "name": "Hip dips",
       "sets": "3",
-      "reps": "7",
-      "id": 4
-    },
-    {
-      "date": "8/12/23",
-      "type": "Legs",
-      "name": "Goblet Squats",
-      "sets": "2 sets",
-      "reps": "14",
-      "id": 5
+      "reps": "12"
     }
   ]
 }

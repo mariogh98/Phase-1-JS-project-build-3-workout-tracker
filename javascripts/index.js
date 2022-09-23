@@ -1,18 +1,22 @@
 
+/** WHEN THE DOM LOADS */
+
+document.addEventListener('DOMContentLoaded', () => {
+    renderHomePage();
+    linkHomePageEvent();
+    linkWorkoutPageEvent();
+    linkWorkoutFormEvent();
+});
 
 /** Globals **/
 const primaryUrl = 'http://localhost:3000';
 let workouts = [];
 
-/**NODE Getters**/
-const mainDiv = () => 
-document.getElementById("main");
-const homePageLink = () => 
-document.getElementById('home-page-link');
-const workoutListLink = () => 
-document.getElementById('workout-list-link');
-const workoutFormLink = () =>
-document.getElementById('workout-form-link');
+
+const mainDiv = () => document.getElementById("main");
+const homePageLink = () => document.getElementById('home-page-link');
+const workoutListLink = () => document.getElementById('workout-list-link');
+const workoutFormLink = () => document.getElementById('workout-form-link');
 
 const dateInput = () => document.getElementById('date')
 const typeInput = () => document.getElementById('type')
@@ -184,7 +188,6 @@ const renderWorkoutForm = () => {
 const linkWorkoutPageEvent = () => {
     workoutListLink().addEventListener('click', (event) => {
         event.preventDefault();
-        
       renderWorkoutListPage();
     })
 };
@@ -198,12 +201,6 @@ const linkWorkoutFormEvent = () => {
 
 const submitFormEvent = event => {
     event.preventDefault();
-    //const [date, type, name, sets, reps] = event.target.children;
-    console.log('date', dateInput().value)
-    console.log('type', typeInput().value)
-    console.log('name', nameInput().value)
-    console.log('sets', setsInput().value)
-    console.log('reps', repsInput().value)
     fetch('http://localhost:3000/workouts', {
         method: "POST",
         headers: {
@@ -220,6 +217,7 @@ const submitFormEvent = event => {
     })
     .then(resp => resp.json())
     .then(workout => {
+        
         renderWorkoutListPage();
     })
 }
@@ -228,13 +226,5 @@ const submitFormEvent = event => {
 
 
 
-/** WHEN THE DOM LOADS */
-
-document.addEventListener('DOMContentLoaded', () => {
-    renderHomePage();
-    linkHomePageEvent();
-    linkWorkoutPageEvent();
-    linkWorkoutFormEvent();
-});
 
 
